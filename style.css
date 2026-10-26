@@ -108,13 +108,13 @@ button:active {
   z-index: 2;
   width: 100%;
   padding: 20px;
-  flex: 1 1 0;
-  min-height: 0;
+  flex: 0 1 auto;
+  
 }
 .header__img--wrapper img {
   display: block;
   width: 100%;
-  height: 100%;
+  height: auto;
   object-fit: contain;
 }
 .container {
